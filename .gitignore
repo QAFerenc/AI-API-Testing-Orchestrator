@@ -1,0 +1,54 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+service_account.json
+secrets.json
+secrets/
+*.pem
+*.key
+*.p12
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Generated execution artifacts
+logs/
+reports/
+*.log
+*.jsonl
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Jupyter and Google Colab
+.ipynb_checkpoints/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
